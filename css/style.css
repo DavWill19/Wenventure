@@ -819,7 +819,14 @@ h3 {
 /*------------------------------------------------------------------
     All Pages
 -------------------------------------------------------------------*/
-
+.page-breadcrumb1 {
+    padding: 250px 0 200px;
+    background: url("frosty1.png");
+    background-attachment: fixed;
+    background-size: 20%;
+    background-position: 0 0;
+    position: relative;
+}
 .page-breadcrumb {
     padding: 250px 0 150px;
     background: url("https://images.unsplash.com/photo-1591797159149-27d30c0a99f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80") no-repeat;
@@ -1408,28 +1415,9 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------------------------------------
+    EMPLOYEE PORTAL
+-------------------------------------------------------------------*/
 
 
 
