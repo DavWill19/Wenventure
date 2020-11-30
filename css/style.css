@@ -829,9 +829,9 @@ h3 {
 -------------------------------------------------------------------*/
 .page-breadcrumb1 {
     padding: 250px 0 200px;
-    background: url("frosty1.png");
+    background: url("frosty1.png") no-repeat;
     background-attachment: fixed;
-    background-size: 20%;
+    background-size: cover;
     background-position: 0 0;
     position: relative;
 }
