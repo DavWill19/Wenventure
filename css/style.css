@@ -261,9 +261,7 @@ button:focus{
 .cover-slides .container > .row {
     height: 100%;
 }
-.row {
-    justify-content: center;
-}
+
 
 .btn{
 	text-transform: uppercase;
@@ -644,10 +642,15 @@ button:focus{
     Footer
 -------------------------------------------------------------------*/
 h3 {
-	text-align: center
+    text-align: center
+
 }
-.locations1 { 
+.locations1 a { 
+    display: flex;
+    flex-wrap: wrap;
     transition: all .2s ease-in-out;
+    width: 100%;
+
 }
 .locations1:hover { 
     transform: scale(1.05); 
@@ -698,7 +701,7 @@ h3 {
 .footer-area p{
 	font-size: 2rem;
 	color: rgba(255, 255, 255, 0.8);
-	margin: 0;
+	margin: 10px;
     padding: 5px 5px 5px 5px;
     justify-content: space-evenly;
     
@@ -817,12 +820,12 @@ h3 {
 	font-size: 16px;
 }
 .locations {
-	font-size: 75px;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60rem;
+    
+
 
 }
 
@@ -1475,7 +1478,7 @@ blockquote {
     -moz-animation: wawes 7s infinite;
     animation: wawes 7s infinite;
   }
-  .login1 > input {
+  #login1-form {
     font-family: "Asap", sans-serif;
     display: block;
     border-radius: 5px;
@@ -1483,10 +1486,11 @@ blockquote {
     background: #f3ecece3;
     width: 100%;
     border: 0;
-    padding: 10px 10px;
-    margin: 15px -10px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
+
   }
-  .login1 > button {
+  #login-form-submit {
     font-family: "Asap", sans-serif;
     cursor: pointer;
     color: #fff;
@@ -1494,7 +1498,6 @@ blockquote {
     text-transform: uppercase;
     width: 80px;
     border: 0;
-    padding: 10px 0;
     margin-top: 10px;
     margin-left: -5px;
     border-radius: 5px;
@@ -1544,16 +1547,18 @@ blockquote {
   #login-error-msg-holder {
     width: 100%;
     height: 100%;
+    margin: 2px;
     display: grid;
     justify-items: center;
     align-items: center;
   }
   
   #login-error-msg {
-    width: 23%;
+    width: 60%;
+    height: 46px;
     text-align: center;
-    margin: 0;
-    padding: 5px;
+    margin: 4px;
+    padding: 0px;
     font-size: 12px;
     font-weight: bold;
     color: #8a0000;
@@ -1562,6 +1567,81 @@ blockquote {
     opacity: 0;
   }
   
-  #error-msg-second-line {
+
+
+  .container3 {
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    border: 1px solid #ccc;
+
+}
+.card {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+    box-shadow: rgb(22, 11, 65) 0px 3px 3px 3px;
+}
+.card div {
     display: block;
-  }
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+  background:rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}
+.card .back {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #292929;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.icons1 {
+    width: 50%;
+    padding: 10px;
+    opacity: 88%;
+}
+.iconH {
+    color: black;
+    margin: 5px;
+    opacity: 88%;      
+}
+.container1 {
+}
+.text {
+    color: white;
+    font-size: inherit;
+}

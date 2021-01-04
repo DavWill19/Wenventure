@@ -8,9 +8,17 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "Wenventure2020" && password === "Beaver#1") {
-        alert("You have successfully logged in.");
         window.location.replace("employeeHome.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
 });
+function flip() {
+    $('.card').toggleClass('flipped');
+};
+function flip2() {
+    $('.card2').toggleClass('flipped');
+};
+function flip3() {
+    $('.card3').toggleClass('flipped');
+};
