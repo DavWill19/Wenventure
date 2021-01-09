@@ -1435,11 +1435,7 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
-@media (max-width: 767px) {
-    .cover-slides h1 {
-        font-size: 55px !important;
-        }
-    }
+
 /*------------------------------------------------------------------
     EMPLOYEE PORTAL
 -------------------------------------------------------------------*/
@@ -1668,3 +1664,8 @@ blockquote {
 .un {
     margin-bottom: 3px;
 }
+@media (max-width: 767px) {
+    .cover-slides h1 {
+        font-size: 55px !important;
+        }
+    }
