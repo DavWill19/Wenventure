@@ -1653,10 +1653,7 @@ blockquote {
     color: white;
     font-size: inherit;
 }
-@media (max-width: 400px) {
-.cover-slides h1 {
-    font-size: 55px !important;
-    }
+
 }
 .elegantshadow {
     font-size: 2.5rem;
@@ -1664,8 +1661,3 @@ blockquote {
 .un {
     margin-bottom: 3px;
 }
-@media (max-width: 767px) {
-    .cover-slides h1 {
-        font-size: 55px !important;
-        }
-    }
