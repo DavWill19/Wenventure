@@ -21,7 +21,7 @@ body {
     color: #666666;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
-    line-height: 1.80857;
+    line-height: 1.8;
 }
 .hover01 figure img {
     -webkit-transform: scale(1);
@@ -225,10 +225,10 @@ button:focus{
 }
 .cover-slides{
 	height: 100vh;
-	opacity: 0.98;
+	opacity: 0.92;
 }
 .slides-navigation a {
-	background: #b0171f;
+
     position: absolute;
     height: 50px;
     width: 50px;
@@ -245,7 +245,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background:#b0171f #010101;
 }
 .cover-slides .container{
     padding-top: 6rem;
@@ -309,7 +309,7 @@ button:focus{
 .cover-slides h1{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	font-size: 8rem;
+	font-size: 100px;
 	color: #fff;
 }
 .cover-slides p{
@@ -333,11 +333,16 @@ button:focus{
 }
 .mike{
     padding-top: 2rem;
+    margin-left: 20px;
+    width: 400px;
 }
 .miketext{
     font-size: 5rem !important;
 }
 .about-section-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
 	padding: 70px 0px;
 	background: #ffffff  no-repeat bottom center;
 	background-size: cover;
@@ -545,7 +550,7 @@ button:focus{
 
 @media (min-width: 320px) and (max-width: 640px) {
 	.carousel-inner .carousel-item p{
-		font-size: 14px;
+		font-size: 30px;
 	}
 	.carousel-control-prev{
 		left: -5px;
@@ -599,8 +604,8 @@ button:focus{
 
 .contact-imfo-box{
 	background: #b0171f;
-	padding: 30px 0;
-	border-radius: 100px;
+	padding: 10px;
+
 }
 
 .overflow-hidden {
@@ -737,7 +742,7 @@ h3 {
 	color: #b0171f;
 }
 .footer-area p a{
-	font-size: 1rem;
+	font-size: 1.5rem;
     color: #ffffff;
     align-items: center;
 }
@@ -839,6 +844,7 @@ h3 {
     background-size: cover;
     background-position: 0 0;
     position: relative;
+    height: 580px;
 }
 .page-breadcrumb {
     padding: 250px 0 150px;
@@ -847,6 +853,7 @@ h3 {
     background-size: cover;
     background-position: 0 0;
     position: relative;
+
 }
 .all-page-title .container{
 	position: relative;
@@ -1644,4 +1651,15 @@ blockquote {
 .text {
     color: white;
     font-size: inherit;
+}
+@media (max-width: 400px) {
+.cover-slides h1 {
+    font-size: 55px !important;
+    }
+}
+.elegantshadow {
+    font-size: 2.5rem;
+}
+.un {
+    margin-bottom: 3px;
 }
