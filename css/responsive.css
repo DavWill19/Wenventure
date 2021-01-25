@@ -5,6 +5,7 @@
 	.footer-area h3{
 		font-size: 18px;
 	}
+	
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar-light .navbar-brand{
@@ -28,6 +29,15 @@
 	}
 	.why-text p{
 		margin: 0px;
+	}
+	.page-breadcrumb1 {
+		padding: 250px 0 200px;
+		background: url("frosty1.png") no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 0 0;
+		position: relative;
+		height: 1200px;
 	}
 }
 
@@ -82,6 +92,19 @@
 	.top-navbar .navbar{
 		border-radius: 0px 0px 50px 50px;
 	}
+	.mike, .video1 {
+		width: 250px;
+	}
+	.page-breadcrumb1 {
+		padding: 250px 0 200px;
+		background: url("frosty1.png") no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 0 0;
+		position: relative;
+		height: 1200px;
+	}
+	
 	
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
@@ -96,5 +119,14 @@
 	.inner-menu-box .nav-pills .nav-link{
 		font-size: 12px;
 		padding: 5px;
+	}
+	.page-breadcrumb1 {
+		padding: 250px 0 200px;
+		background: url("frosty1.png") no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: 0 0;
+		position: relative;
+		height: 1200px;
 	}
 }

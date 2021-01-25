@@ -333,7 +333,7 @@ button:focus{
 }
 .mike{
     padding-top: 2rem;
-    margin-left: 20px;
+    margin-left: 45px;
     width: 400px;
 }
 .miketext{
@@ -1435,7 +1435,6 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
-
 /*------------------------------------------------------------------
     EMPLOYEE PORTAL
 -------------------------------------------------------------------*/
@@ -1581,10 +1580,10 @@ blockquote {
     width: 100%;
     height: 15rem;
     position: relative;
-    border: 1px solid #ccc;
+    margin: 3px;
 
 }
-.card {
+.card, .card2, .card3 {
     width: 100%;
     height: 100%;
     -webkit-transition: -webkit-transform 1s;
@@ -1597,8 +1596,9 @@ blockquote {
     transform-style: preserve-3d;
     -webkit-transform-origin: 50% 50%;
     box-shadow: rgb(22, 11, 65) 0px 3px 3px 3px;
+
 }
-.card div {
+.card div, .card2 div, .card3 div {
     display: block;
     height: 100%;
     width: 100%;
@@ -1613,12 +1613,12 @@ blockquote {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-.card .front {
+.card .front, .card2 .front2, .card3 .front3 {
   background:rgb(255, 255, 255);
   width: 100%;
   height: 100%;
 }
-.card .back {
+.card .back, .card2 .back2, .card3 .back3 {
     display: flex;
     width: 100%;
     height: 100%;
@@ -1627,11 +1627,14 @@ blockquote {
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    overflow: hidden;
     
 }
-.card.flipped {
+.card.flipped, .card2.flipped2, .card3.flipped3 {
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
@@ -1651,10 +1654,10 @@ blockquote {
 }
 .text {
     color: white;
-    font-size: inherit;
+    font-size: 20px;
+    padding: 10px;
 }
 
-}
 .elegantshadow {
     font-size: 2.5rem;
 }

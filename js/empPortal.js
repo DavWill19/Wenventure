@@ -17,8 +17,8 @@ function flip() {
     $('.card').toggleClass('flipped');
 };
 function flip2() {
-    $('.card2').toggleClass('flipped');
+    $('.card2').toggleClass('flipped2');
 };
 function flip3() {
-    $('.card3').toggleClass('flipped');
+    $('.card3').toggleClass('flipped3');
 };
